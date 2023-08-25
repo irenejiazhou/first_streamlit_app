@@ -30,7 +30,7 @@ streamlit.dataframe(fruits_to_show)
 streamlit.header("Fruityvice Fruit Advice!")
 
 # Connect with fruityvice API and display the response
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + "watermelon")
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + "kiwi")
 # streamlit.text(fruityvice_response) # -> <Response [200]>
 # streamlit.text(fruityvice_response.json()) # -> The json of API data
 
