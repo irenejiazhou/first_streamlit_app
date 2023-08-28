@@ -1,6 +1,6 @@
 # requirements.txt
 # Set Up Streamlit to Work with Snowflake
-# The requirements file tells Streamlit what Python libraries to load during BOOT (Startup). 
-# If you make changes to the requirements file to solve any error messages, you will need to reboot the app so that those changes are received by the app. 
+# The requirements file tells Streamlit what Python libraries to load during BOOT (Startup) so it can add them in advance. 
+# The requirements.txt file is only processed during the booting (or "startup") of your app, so each time you make a change to your requirements file you will need to reboot to see the effects. 
 
 snowflake-connector-python
