@@ -1,7 +1,7 @@
 import streamlit
 import pandas
 import requests # To display fruityvice API response
-import snowflake.connector # bring in some code from the snowflake library you added (snowflake-connector-python)
+import snowflake.connector # bring in some code from the snowflake library added (snowflake-connector-python)
 
 streamlit.title('My Parents New Healthy Diner')
 
