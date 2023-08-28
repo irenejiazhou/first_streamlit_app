@@ -62,9 +62,9 @@ try:
     streamlit.error('Please select a fruit to get information.')
   else:
     back_from_function = get_fruityvice_data(fruit_choice)
-    streamlit.dataframe(fruityvice_normalized)
-# except URLERROR as e:
-#   streamlit.error()
+    streamlit.dataframe(back_from_function)
+except URLError as e:
+    streamlit.error()
 
 
 # Query Snowflake Trial Account Metadata 
