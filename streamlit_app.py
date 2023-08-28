@@ -63,8 +63,8 @@ try:
   else:
     back_from_function = get_fruityvice_data(fruit_choice)
     streamlit.dataframe(fruityvice_normalized)
-except URLERROR as e:
-  streamlit.error()
+# except URLERROR as e:
+#   streamlit.error()
 
 
 # Query Snowflake Trial Account Metadata 
