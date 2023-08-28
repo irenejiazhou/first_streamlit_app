@@ -64,7 +64,7 @@ streamlit.dataframe(my_data_rows)
 
 # Add a Second Text Entry Box to Allow the End User to Add a Fruit to the List
 add_my_fruit = streamlit.text_input('What fruit would you like to add?','jackfruit')
-streamlit.text("Thanks for adding" + add_my_fruit)
+streamlit.text("Thanks for adding " + add_my_fruit)
 
 
 
