@@ -76,7 +76,7 @@ except URLError as e:
 # streamlit.text(my_data_row)
 
 # Don't run anything past here while we troubleshoot
-streamlit.stop()
+# streamlit.stop()
 
 # Query Data
 streamlit.header("The fruit load list contains:")
